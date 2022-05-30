@@ -1,16 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Risque&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.8;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    text-decoration: none;
+    color: steelblue;
 }
 
-* {
-  box-sizing: border-box;
+p {
+    margin: 10px 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h3,
+h2 {
+    color: #560456;
+}
+
+.btn-login {
+    margin-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #240124;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    font: inherit;
+    font-size: 13px;
+    background: rgb(4, 18, 58);
+    color: #fff !important;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    opacity: 0.8;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon svg {
+    margin-right: 5px;
 }

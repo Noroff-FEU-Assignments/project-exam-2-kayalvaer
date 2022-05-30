@@ -1,7 +1,9 @@
+import Layout from '../../components/Layout'
+
 export default function addDeveloperPage() {
   return (
-    <div>
+    <Layout title='Add a developer'>
         <h1>Add Developer</h1>
-    </div>
+    </Layout>
   )
 }
