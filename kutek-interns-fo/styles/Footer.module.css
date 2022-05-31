@@ -1,0 +1,36 @@
+.footer {
+    margin: 100px 0 40px;
+    text-align: center;
+}
+
+.footer {
+    margin: 5px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 43, 43);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footerTag {
+    padding-bottom: 2rem;
+    font-size: 15px;
+    color: gray;
+}

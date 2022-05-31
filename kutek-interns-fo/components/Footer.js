@@ -1,4 +1,6 @@
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import Image from 'next/image'
+import styles from '/styles/Footer.module.css'
 
 export default function Footer () {
   return (
@@ -8,9 +10,11 @@ export default function Footer () {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/imgs/logodark.png" alt="Vercel Logo" width={122} height={66} />
+            <p>Copyright &copy; <Link href='/'>KuTek 2021</Link></p>
+            <p className={styles.footerTag}>Designed by Kay </p>
           </span>
         </a>
     </footer>

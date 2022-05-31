@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
 import Nav from './Nav'
+import Footer from './Footer'
 
 export default function Layout({title, keywords, description, children}) {
   return (
@@ -17,6 +18,8 @@ export default function Layout({title, keywords, description, children}) {
       <div className={styles.wrapper}>
         { children }
       </div>
+
+      <Footer />
 
     </div>
   )
