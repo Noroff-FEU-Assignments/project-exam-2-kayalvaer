@@ -1,14 +1,17 @@
 .hero {
     height: 500px;
     width: 100%;
-    background: #000 url('../public/pexels-fauxels-3182826.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../public/imgs/Vecteezy_College\ Student\ Posing_Character_AS072021-2.jpg') no-repeat center center;
     color: #fff;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    object-fit: contain;
+    align-self: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero::after {
@@ -25,7 +28,20 @@
     z-index: 10;
 }
 
+.heroContent {
+    padding: 0 1rem;
+}
+
 .hero h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 0;
+    letter-spacing: 4px;
+}
+
+.hero h2 {
+    text-decoration: none;
+    color: #4682b4;
+    left: 4px;
+    font-size: 20px;
+    letter-spacing: 4px;
 }

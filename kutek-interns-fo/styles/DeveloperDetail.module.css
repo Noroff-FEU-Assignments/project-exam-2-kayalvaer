@@ -1,0 +1,112 @@
+div.listContainer {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    justify-content: center;
+    width: calc(100% + 20px);
+    margin: -10px;
+    background-color: green;
+}
+
+
+/* .item {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+} */
+
+.btnarrow {
+    padding: 20px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    max-width: 100%;
+}
+
+.content {
+    flex: 2;
+    margin: 15px;
+}
+
+.textInfo {
+    color: grey;
+    font-weight: lighter;
+}
+
+@media (max-width: 600px) {
+    .item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* btn styles */
+
+.devWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.devLink {
+    margin: 10px;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.btn-link {
+    border: 1px solid white;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    color: blue;
+    transition: background 0.5s ease;
+}
+
+.btn-link:hover {
+    background: blue;
+    color: white;
+    font-weight: normal;
+}
+
+.btn-link:hover i {
+    color: white;
+}
+
+
+/* i {
+    color: blue;
+    margin-left: 20px;
+} */
+
+.arrowRight {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+
+.dev {
+    padding: 2rem 5rem;
+}
